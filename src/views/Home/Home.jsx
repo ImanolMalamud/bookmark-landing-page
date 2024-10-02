@@ -9,7 +9,7 @@ import Footer from "../../components/Footer/Footer";
 const Home = () => {
   return (
     <>
-      <div className="mx-auto flex w-full max-w-screen-lg flex-col">
+      <div className="mx-auto flex w-full max-w-screen-lg flex-col px-5 md:px-0">
         <Header />
         <main id="main" className="flex flex-col">
           <Introduction />
